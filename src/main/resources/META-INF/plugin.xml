@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>dev.wolfieboy09.IntelliKube</id>
+    <name>IntelliKube</name>
+    <vendor>Wolfieboy09</vendor>
+
+    <description><![CDATA[
+        A way to make KubeJS plugins a lot easier
+        ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.MessageBundle</resource-bundle>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileIconProvider implementation="dev.wolfieboy09.icons.KubeIconProvider"/>
+    </extensions>
+
+</idea-plugin>
