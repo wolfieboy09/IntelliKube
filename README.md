@@ -5,6 +5,7 @@ An IntelliJ plugin to make development faster.
 ## Roadmap
 **This roadmap will change over time.**
 
+- [X] Custom file icons for Kube files
 - [ ] Support for `kubejs.plugins.txt`
     - When a class impls `KubeJSPlugin` and it is not inside the plugin file, it would insert the class path and the mod id from Gradle properties
   - [ ] Syntax highlighting
