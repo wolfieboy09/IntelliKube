@@ -2,9 +2,12 @@
     <id>dev.wolfieboy09.IntelliKube</id>
     <name>IntelliKube</name>
     <vendor>Wolfieboy09</vendor>
+    <version>$version</version>
 
     <description><![CDATA[
         A way to make KubeJS plugins a lot easier
+        Includes the following:
+            - Icons for Kube files
         ]]></description>
 
     <depends>com.intellij.modules.platform</depends>

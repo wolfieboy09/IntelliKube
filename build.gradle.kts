@@ -14,3 +14,9 @@ dependencies {
         testFramework(TestFrameworkType.Platform)
     }
 }
+
+intellijPlatform {
+    pluginConfiguration {
+        version = project.version.toString()
+    }
+}
