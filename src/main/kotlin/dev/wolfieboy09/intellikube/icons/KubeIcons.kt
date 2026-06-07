@@ -1,4 +1,4 @@
-package dev.wolfieboy09.icons
+package dev.wolfieboy09.intellikube.icons
 
 import com.intellij.openapi.util.IconLoader
 import javax.swing.Icon

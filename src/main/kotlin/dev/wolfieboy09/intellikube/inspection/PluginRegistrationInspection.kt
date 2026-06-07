@@ -1,4 +1,4 @@
-package dev.wolfieboy09.inspection
+package dev.wolfieboy09.intellikube.inspection
 
 import com.intellij.codeInspection.AbstractBaseJavaLocalInspectionTool
 import com.intellij.codeInspection.ProblemHighlightType

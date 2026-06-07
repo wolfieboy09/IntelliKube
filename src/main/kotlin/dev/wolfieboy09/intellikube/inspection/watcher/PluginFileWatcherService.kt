@@ -1,4 +1,4 @@
-package dev.wolfieboy09.inspection.watcher
+package dev.wolfieboy09.intellikube.inspection.watcher
 
 import com.intellij.codeInsight.daemon.DaemonCodeAnalyzer
 import com.intellij.openapi.Disposable
@@ -7,7 +7,7 @@ import com.intellij.openapi.project.Project
 import com.intellij.openapi.vfs.AsyncFileListener
 import com.intellij.openapi.vfs.VirtualFileManager
 import com.intellij.openapi.vfs.newvfs.events.VFileContentChangeEvent
-import dev.wolfieboy09.inspection.PluginRegistrationInspection
+import dev.wolfieboy09.intellikube.inspection.PluginRegistrationInspection
 
 @Service(Service.Level.PROJECT)
 class PluginFileWatcherService(project: Project) : Disposable {

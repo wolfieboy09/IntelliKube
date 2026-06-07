@@ -1,4 +1,4 @@
-package dev.wolfieboy09.icons
+package dev.wolfieboy09.intellikube.icons
 
 import com.intellij.ide.FileIconProvider
 import com.intellij.openapi.project.Project

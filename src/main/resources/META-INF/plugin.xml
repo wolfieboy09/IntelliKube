@@ -16,11 +16,11 @@
     <resource-bundle>messages.MessageBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileIconProvider implementation="dev.wolfieboy09.icons.KubeIconProvider"/>
-        <postStartupActivity implementation="dev.wolfieboy09.inspection.watcher.PluginFileWatcher"/>
+        <fileIconProvider implementation="dev.wolfieboy09.intellikube.icons.KubeIconProvider"/>
+        <postStartupActivity implementation="dev.wolfieboy09.intellikube.inspection.watcher.PluginFileWatcher"/>
         <localInspection
                 language="JAVA"
-                implementationClass="dev.wolfieboy09.inspection.PluginRegistrationInspection"
+                implementationClass="dev.wolfieboy09.intellikube.inspection.PluginRegistrationInspection"
                 groupName="IntelliKube"
                 enabledByDefault="true"
                 level="WARNING"

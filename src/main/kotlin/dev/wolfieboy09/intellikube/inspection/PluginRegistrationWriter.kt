@@ -1,4 +1,4 @@
-package dev.wolfieboy09.inspection
+package dev.wolfieboy09.intellikube.inspection
 
 import com.intellij.codeInsight.intention.preview.IntentionPreviewInfo
 import com.intellij.codeInspection.LocalQuickFix

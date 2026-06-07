@@ -1,4 +1,4 @@
-package dev.wolfieboy09.inspection
+package dev.wolfieboy09.intellikube.inspection
 
 import com.intellij.openapi.module.ModuleUtilCore
 import com.intellij.openapi.roots.ModuleRootManager

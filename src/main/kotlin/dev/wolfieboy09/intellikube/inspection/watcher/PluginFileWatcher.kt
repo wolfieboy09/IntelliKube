@@ -1,4 +1,4 @@
-package dev.wolfieboy09.inspection.watcher
+package dev.wolfieboy09.intellikube.inspection.watcher
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
