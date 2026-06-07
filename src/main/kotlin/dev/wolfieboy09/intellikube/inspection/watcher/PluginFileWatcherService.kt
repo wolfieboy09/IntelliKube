@@ -21,7 +21,7 @@ class PluginFileWatcherService(project: Project) : Disposable {
 
                 object : AsyncFileListener.ChangeApplier {
                     override fun afterVfsChange() {
-                        DaemonCodeAnalyzer.getInstance(project).restart()
+                        DaemonCodeAnalyzer.getInstance(project).settingsChanged()
                     }
                 }
             },
